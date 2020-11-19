@@ -1,8 +1,8 @@
-import {Module} from '@nestjs/common';
-import {GraphQLModule} from '@nestjs/graphql';
-import {LessonModule} from './lesson/lesson.module';
-import {TypeOrmModule} from '@nestjs/typeorm';
-import {Lesson} from './lesson/lesson.entity';
+import { Module } from '@nestjs/common';
+import { GraphQLModule } from '@nestjs/graphql';
+import { LessonModule } from './lesson/lesson.module';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { Lesson } from './lesson/lesson.entity';
 
 @Module({
   imports: [
@@ -19,5 +19,4 @@ import {Lesson} from './lesson/lesson.entity';
     LessonModule,
   ],
 })
-export class AppModule {
-}
+export class AppModule {}
