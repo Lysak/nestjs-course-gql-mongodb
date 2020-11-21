@@ -1,6 +1,5 @@
 import { Field, ID, InputType } from '@nestjs/graphql';
 import { IsDateString, IsUUID, MinLength } from 'class-validator';
-import { getDefaultValue } from '@nestjs/graphql/dist/schema-builder/helpers/get-default-value.helper';
 
 @InputType()
 export class CreateLessonInput {
